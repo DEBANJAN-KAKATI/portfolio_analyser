@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# Secrets
+config_local.py
+.env
+
+# Generated output / run state
+progress.json
+portfolio_docs/
+docs/

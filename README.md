@@ -42,6 +42,16 @@ python -m playwright install chromium
 
 ## Configuration
 
+> **API keys:** don't put keys in `config.py` (it is committed to git).
+> Create a file named **`config_local.py`** next to `config.py` with:
+>
+> ```python
+> GEMINI_API_KEY = "AIza..."
+> ```
+>
+> `config_local.py` is git-ignored, and its values override `config.py`.
+> Alternatively set the `GEMINI_API_KEY` environment variable.
+
 Open **`config.py`** and fill in two things:
 
 ### 1. Choose your AI provider
